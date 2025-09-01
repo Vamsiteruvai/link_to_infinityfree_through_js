@@ -6,7 +6,10 @@ const toast = document.getElementById('toast');
 const downloadBtn = document.getElementById('downloadCV');
 
 menuBtn.addEventListener("click", () => {
-    mobileMenu.classList.toggle("hidden");
+     mobileMenu.classList.remove("hidden");
+    setTimeout(()=>{
+        mobileMenu.classList.add("hidden");
+    },5000);
 });
 
 var typed = new Typed("#typed-role", {
