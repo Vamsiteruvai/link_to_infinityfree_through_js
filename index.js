@@ -9,7 +9,7 @@ menuBtn.addEventListener("click", () => {
      mobileMenu.classList.remove("hidden");
     setTimeout(()=>{
         mobileMenu.classList.add("hidden");
-    },5000);
+    },8000);
 });
 
 var typed = new Typed("#typed-role", {
